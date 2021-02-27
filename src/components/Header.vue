@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full h-14 bg-black text-white px-6 flex items-center text-xl"
+    class="flex items-center w-full px-6 py-4 text-xl text-white bg-black"
   >
     <h1>{{ title }}</h1>
   </header>
