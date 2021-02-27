@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="min-h-screen">
     <Header title="Markdown Editor" />
-    <Markdown />
+    <section class="px-6 py-4 h-section">
+      <Markdown />
+    </section>
   </div>
 </template>
 
