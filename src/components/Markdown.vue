@@ -1,6 +1,6 @@
 <template>
   <form
-    class="w-1/2 h-full max-w-2xl overflow-y-auto border border-black"
+    class="w-1/2 h-full max-w-2xl overflow-hidden border border-black"
     submit.prevent
   >
     <textarea
