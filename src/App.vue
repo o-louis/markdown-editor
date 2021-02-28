@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="min-h-screen">
     <Header title="Markdown Editor" />
-    <section class="flex justify-between px-6 py-4 h-section">
+    <section class="flex px-6 py-4 h-section">
       <Markdown @getHTMLContent="setContent" />
       <Preview :content="content" />
     </section>
