@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-1/2 h-full max-w-2xl px-4 overflow-y-auto border border-black markdown"
+    class="w-1/2 h-full max-w-2xl px-4 overflow-y-auto prose-sm prose border border-black sm:prose lg:prose-lg xl:prose-xl"
     v-html="compiledMarkdown"
   />
 </template>
